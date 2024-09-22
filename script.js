@@ -10,7 +10,7 @@ function asyncOperation(result, delay) {
 	});
 }
 
-button.addEventListner('click', () => {
+button.addEventListener('click', () => {
 	outputDiv.textContent = '';
 
 	const number = Number(input.value);
